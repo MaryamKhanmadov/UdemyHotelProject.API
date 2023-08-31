@@ -1,0 +1,14 @@
+C:\Users\Asus\Desktop\Udemy_Hotel_Project\UdemyHotelProject\ApiConsume\HotelProject.EntityLayer\bin\Debug\net7.0\HotelProject.EntityLayer.deps.json
+C:\Users\Asus\Desktop\Udemy_Hotel_Project\UdemyHotelProject\ApiConsume\HotelProject.EntityLayer\bin\Debug\net7.0\HotelProject.EntityLayer.runtimeconfig.json
+C:\Users\Asus\Desktop\Udemy_Hotel_Project\UdemyHotelProject\ApiConsume\HotelProject.EntityLayer\bin\Debug\net7.0\HotelProject.EntityLayer.dll
+C:\Users\Asus\Desktop\Udemy_Hotel_Project\UdemyHotelProject\ApiConsume\HotelProject.EntityLayer\bin\Debug\net7.0\HotelProject.EntityLayer.pdb
+C:\Users\Asus\Desktop\Udemy_Hotel_Project\UdemyHotelProject\ApiConsume\HotelProject.EntityLayer\obj\Debug\net7.0\HotelProject.EntityLayer.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\Udemy_Hotel_Project\UdemyHotelProject\ApiConsume\HotelProject.EntityLayer\obj\Debug\net7.0\HotelProject.EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Desktop\Udemy_Hotel_Project\UdemyHotelProject\ApiConsume\HotelProject.EntityLayer\obj\Debug\net7.0\HotelProject.EntityLayer.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\Udemy_Hotel_Project\UdemyHotelProject\ApiConsume\HotelProject.EntityLayer\obj\Debug\net7.0\HotelProject.EntityLayer.AssemblyInfo.cs
+C:\Users\Asus\Desktop\Udemy_Hotel_Project\UdemyHotelProject\ApiConsume\HotelProject.EntityLayer\obj\Debug\net7.0\HotelProject.EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\Udemy_Hotel_Project\UdemyHotelProject\ApiConsume\HotelProject.EntityLayer\obj\Debug\net7.0\HotelProject.EntityLayer.dll
+C:\Users\Asus\Desktop\Udemy_Hotel_Project\UdemyHotelProject\ApiConsume\HotelProject.EntityLayer\obj\Debug\net7.0\refint\HotelProject.EntityLayer.dll
+C:\Users\Asus\Desktop\Udemy_Hotel_Project\UdemyHotelProject\ApiConsume\HotelProject.EntityLayer\obj\Debug\net7.0\HotelProject.EntityLayer.pdb
+C:\Users\Asus\Desktop\Udemy_Hotel_Project\UdemyHotelProject\ApiConsume\HotelProject.EntityLayer\obj\Debug\net7.0\HotelProject.EntityLayer.genruntimeconfig.cache
+C:\Users\Asus\Desktop\Udemy_Hotel_Project\UdemyHotelProject\ApiConsume\HotelProject.EntityLayer\obj\Debug\net7.0\ref\HotelProject.EntityLayer.dll

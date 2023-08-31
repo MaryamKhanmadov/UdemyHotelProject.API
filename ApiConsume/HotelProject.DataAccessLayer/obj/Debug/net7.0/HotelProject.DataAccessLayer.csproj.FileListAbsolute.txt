@@ -1,0 +1,17 @@
+C:\Users\Asus\Desktop\Udemy_Hotel_Project\UdemyHotelProject\ApiConsume\HotelProject.DataAccessLayer\bin\Debug\net7.0\HotelProject.DataAccessLayer.deps.json
+C:\Users\Asus\Desktop\Udemy_Hotel_Project\UdemyHotelProject\ApiConsume\HotelProject.DataAccessLayer\bin\Debug\net7.0\HotelProject.DataAccessLayer.runtimeconfig.json
+C:\Users\Asus\Desktop\Udemy_Hotel_Project\UdemyHotelProject\ApiConsume\HotelProject.DataAccessLayer\bin\Debug\net7.0\HotelProject.DataAccessLayer.dll
+C:\Users\Asus\Desktop\Udemy_Hotel_Project\UdemyHotelProject\ApiConsume\HotelProject.DataAccessLayer\bin\Debug\net7.0\HotelProject.DataAccessLayer.pdb
+C:\Users\Asus\Desktop\Udemy_Hotel_Project\UdemyHotelProject\ApiConsume\HotelProject.DataAccessLayer\bin\Debug\net7.0\HotelProject.EntityLayer.dll
+C:\Users\Asus\Desktop\Udemy_Hotel_Project\UdemyHotelProject\ApiConsume\HotelProject.DataAccessLayer\bin\Debug\net7.0\HotelProject.EntityLayer.pdb
+C:\Users\Asus\Desktop\Udemy_Hotel_Project\UdemyHotelProject\ApiConsume\HotelProject.DataAccessLayer\obj\Debug\net7.0\HotelProject.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\Udemy_Hotel_Project\UdemyHotelProject\ApiConsume\HotelProject.DataAccessLayer\obj\Debug\net7.0\HotelProject.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Desktop\Udemy_Hotel_Project\UdemyHotelProject\ApiConsume\HotelProject.DataAccessLayer\obj\Debug\net7.0\HotelProject.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\Udemy_Hotel_Project\UdemyHotelProject\ApiConsume\HotelProject.DataAccessLayer\obj\Debug\net7.0\HotelProject.DataAccessLayer.AssemblyInfo.cs
+C:\Users\Asus\Desktop\Udemy_Hotel_Project\UdemyHotelProject\ApiConsume\HotelProject.DataAccessLayer\obj\Debug\net7.0\HotelProject.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\Udemy_Hotel_Project\UdemyHotelProject\ApiConsume\HotelProject.DataAccessLayer\obj\Debug\net7.0\HotelProject.DataAccessLayer.csproj.CopyComplete
+C:\Users\Asus\Desktop\Udemy_Hotel_Project\UdemyHotelProject\ApiConsume\HotelProject.DataAccessLayer\obj\Debug\net7.0\HotelProject.DataAccessLayer.dll
+C:\Users\Asus\Desktop\Udemy_Hotel_Project\UdemyHotelProject\ApiConsume\HotelProject.DataAccessLayer\obj\Debug\net7.0\refint\HotelProject.DataAccessLayer.dll
+C:\Users\Asus\Desktop\Udemy_Hotel_Project\UdemyHotelProject\ApiConsume\HotelProject.DataAccessLayer\obj\Debug\net7.0\HotelProject.DataAccessLayer.pdb
+C:\Users\Asus\Desktop\Udemy_Hotel_Project\UdemyHotelProject\ApiConsume\HotelProject.DataAccessLayer\obj\Debug\net7.0\HotelProject.DataAccessLayer.genruntimeconfig.cache
+C:\Users\Asus\Desktop\Udemy_Hotel_Project\UdemyHotelProject\ApiConsume\HotelProject.DataAccessLayer\obj\Debug\net7.0\ref\HotelProject.DataAccessLayer.dll
