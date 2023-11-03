@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "njVCdkvppBQ6xGF3zak7D491GKocdHSwefa6raKsem4I/q9Lxe8FhjdjR1U5xDUfCuw6t0Bk3H/BDleTI1an3Q==",
+  "dgSpecHash": "jku3vZgwhIraG4hZEHZlIDit1M6zsx4ok9dYyP5gt9jRGLH+Eob2PzbQP3afhmBESYpEcVTp/RvlvPOVbraAoQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Asus\\Desktop\\Udemy_Hotel_Project\\UdemyHotelProject\\Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj",
   "expectedPackageFiles": [
@@ -117,7 +117,7 @@
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
-    "C:\\Users\\Asus\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\nuget.common\\6.6.1\\nuget.common.6.6.1.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\nuget.configuration\\6.6.1\\nuget.configuration.6.6.1.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\nuget.dependencyresolver.core\\6.6.1\\nuget.dependencyresolver.core.6.6.1.nupkg.sha512",

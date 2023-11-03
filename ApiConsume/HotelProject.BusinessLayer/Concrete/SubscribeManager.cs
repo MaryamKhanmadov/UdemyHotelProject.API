@@ -18,12 +18,12 @@ namespace HotelProject.BusinessLayer.Concrete
             _subscribeDal.Delete(entity, true);
         }
 
-        public Task<Subscribe> TGetByID(Guid id)
+        public Task<Subscribe> TGetByID(int id)
         {
             return _subscribeDal.GetByID(id, true);
         }
 
-        public Task<List<Subscribe>> TGetList()
+        public List<Subscribe> TGetList()
         {
             return _subscribeDal.GetList(true);
         }

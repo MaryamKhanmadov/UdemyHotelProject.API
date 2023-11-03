@@ -2,7 +2,7 @@
 {
     public class BaseEntity
     {
-        public Guid ID { get; set; }
+        public int id { get; set; }
         public DateTime CreatedDate { get; set; }
         public DateTime UpdatedDate { get; set; }
         public bool IsDeactive { get; set; } = false;

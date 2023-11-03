@@ -21,12 +21,12 @@ namespace HotelProject.DataAccessLayer.Repositories
             await _context.SaveChangesAsync();
         }
 
-        public async Task<T> GetByID(Guid id, bool tracking = false)
+        public async Task<T> GetByID(int id, bool tracking = false)
         {
             return _context.Set<T>().Find(id);
         }
 
-        public async Task<List<T>> GetList(bool tracking = false)
+        public List<T> GetList(bool tracking = false)
         {
             var query = Table.AsQueryable();
             if (!tracking)

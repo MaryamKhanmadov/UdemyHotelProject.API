@@ -26,10 +26,10 @@ namespace HotelProject.WebApi.Controllers
             _subscribeService.TInsert(subscribe);
             return Ok();
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteSubscribe(string id)
         {
-            _subscribeService.TDelete(await _subscribeService.TGetByID(Guid.Parse(id)));
+            _subscribeService.TDelete(await _subscribeService.TGetByID(int.Parse(id)));
             return Ok();
         }
         [HttpPut]
@@ -39,7 +39,7 @@ namespace HotelProject.WebApi.Controllers
             return Ok();
         }
         [HttpGet("{id}")]
-        public IActionResult GetSubscribe(Guid id)
+        public IActionResult GetSubscribe(int id)
         {
             return Ok(_subscribeService.TGetByID(id));
         }

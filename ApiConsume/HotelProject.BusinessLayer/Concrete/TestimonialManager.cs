@@ -18,12 +18,12 @@ namespace HotelProject.BusinessLayer.Concrete
             _testimonialDal.Delete(entity,true);
         }
 
-        public Task<Testimonial> TGetByID(Guid id)
+        public Task<Testimonial> TGetByID(int id)
         {
             return _testimonialDal.GetByID(id, true);
         }
 
-        public Task<List<Testimonial>> TGetList()
+        public List<Testimonial> TGetList()
         {
             return _testimonialDal.GetList(true);
         }

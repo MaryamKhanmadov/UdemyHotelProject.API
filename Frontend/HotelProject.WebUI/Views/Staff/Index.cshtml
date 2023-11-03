@@ -1,8 +1,36 @@
-﻿
+﻿@model List<StaffViewModel>
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+    int countId = 1;
 }
 
-<h1>Index</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Title</th>
+            <th>Created Date</th>
+            <th>Delete</th>
+            <th>Update</th>
+            <th>Detail</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th style="vertical-align: middle;">@(countId++)</th>
+                <td>@item.Name</td>
+                <td>@item.Title</td>
+                <td>@item.CreatedDate</td>
+                <td><a href="/staff/deletestaff/@item.ID" class="btn mb-1 btn-rounded btn-outline-danger">Delete</a></td>
+                <td><a href="/staff/updatestaff/@item.ID" class="btn mb-1 btn-rounded btn-outline-success">Update</a></td>
+                <td><a href="#" class="btn mb-1 btn-rounded btn-outline-dark">Detail</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a href="/Staff/addstaff/" class="btn mb-1 btn-rounded btn-outline-primary">Add new person</a>
 

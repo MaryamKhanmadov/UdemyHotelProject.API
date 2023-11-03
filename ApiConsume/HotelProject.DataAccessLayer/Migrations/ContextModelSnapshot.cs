@@ -24,9 +24,11 @@ namespace HotelProject.DataAccessLayer.Migrations
 
             modelBuilder.Entity("HotelProject.EntityLayer.Concrete.Room", b =>
                 {
-                    b.Property<Guid>("ID")
+                    b.Property<int>("id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
 
                     b.Property<string>("BathCount")
                         .IsRequired()
@@ -68,16 +70,18 @@ namespace HotelProject.DataAccessLayer.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("ID");
+                    b.HasKey("id");
 
                     b.ToTable("Rooms");
                 });
 
             modelBuilder.Entity("HotelProject.EntityLayer.Concrete.Service", b =>
                 {
-                    b.Property<Guid>("ID")
+                    b.Property<int>("id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
 
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
@@ -100,16 +104,18 @@ namespace HotelProject.DataAccessLayer.Migrations
                     b.Property<DateTime>("UpdatedDate")
                         .HasColumnType("datetime2");
 
-                    b.HasKey("ID");
+                    b.HasKey("id");
 
                     b.ToTable("Services");
                 });
 
             modelBuilder.Entity("HotelProject.EntityLayer.Concrete.Staff", b =>
                 {
-                    b.Property<Guid>("ID")
+                    b.Property<int>("id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
 
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
@@ -144,16 +150,18 @@ namespace HotelProject.DataAccessLayer.Migrations
                     b.Property<DateTime>("UpdatedDate")
                         .HasColumnType("datetime2");
 
-                    b.HasKey("ID");
+                    b.HasKey("id");
 
                     b.ToTable("Staffs");
                 });
 
             modelBuilder.Entity("HotelProject.EntityLayer.Concrete.Subscribe", b =>
                 {
-                    b.Property<Guid>("ID")
+                    b.Property<int>("id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
 
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
@@ -168,16 +176,18 @@ namespace HotelProject.DataAccessLayer.Migrations
                     b.Property<DateTime>("UpdatedDate")
                         .HasColumnType("datetime2");
 
-                    b.HasKey("ID");
+                    b.HasKey("id");
 
                     b.ToTable("Subscribes");
                 });
 
             modelBuilder.Entity("HotelProject.EntityLayer.Concrete.Testimonial", b =>
                 {
-                    b.Property<Guid>("ID")
+                    b.Property<int>("id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
 
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
@@ -204,7 +214,7 @@ namespace HotelProject.DataAccessLayer.Migrations
                     b.Property<DateTime>("UpdatedDate")
                         .HasColumnType("datetime2");
 
-                    b.HasKey("ID");
+                    b.HasKey("id");
 
                     b.ToTable("Testimonials");
                 });

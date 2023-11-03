@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace HotelProject.DataAccessLayer.Migrations
 {
     /// <inheritdoc />
-    public partial class mig_1 : Migration
+    public partial class CreateDataBase : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -15,7 +15,8 @@ namespace HotelProject.DataAccessLayer.Migrations
                 name: "Rooms",
                 columns: table => new
                 {
-                    ID = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     RoomNumber = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     RoomCoverImage = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Price = table.Column<int>(type: "int", nullable: false),
@@ -30,14 +31,15 @@ namespace HotelProject.DataAccessLayer.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Rooms", x => x.ID);
+                    table.PrimaryKey("PK_Rooms", x => x.id);
                 });
 
             migrationBuilder.CreateTable(
                 name: "Services",
                 columns: table => new
                 {
-                    ID = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     ServiceIcon = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Title = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
@@ -47,14 +49,15 @@ namespace HotelProject.DataAccessLayer.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Services", x => x.ID);
+                    table.PrimaryKey("PK_Services", x => x.id);
                 });
 
             migrationBuilder.CreateTable(
                 name: "Staffs",
                 columns: table => new
                 {
-                    ID = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Title = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Image = table.Column<string>(type: "nvarchar(max)", nullable: false),
@@ -67,14 +70,15 @@ namespace HotelProject.DataAccessLayer.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Staffs", x => x.ID);
+                    table.PrimaryKey("PK_Staffs", x => x.id);
                 });
 
             migrationBuilder.CreateTable(
                 name: "Subscribes",
                 columns: table => new
                 {
-                    ID = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     Mail = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     CreatedDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     UpdatedDate = table.Column<DateTime>(type: "datetime2", nullable: false),
@@ -82,14 +86,15 @@ namespace HotelProject.DataAccessLayer.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Subscribes", x => x.ID);
+                    table.PrimaryKey("PK_Subscribes", x => x.id);
                 });
 
             migrationBuilder.CreateTable(
                 name: "Testimonials",
                 columns: table => new
                 {
-                    ID = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Title = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
@@ -100,7 +105,7 @@ namespace HotelProject.DataAccessLayer.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Testimonials", x => x.ID);
+                    table.PrimaryKey("PK_Testimonials", x => x.id);
                 });
         }
 

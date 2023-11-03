@@ -26,10 +26,10 @@ namespace HotelProject.WebApi.Controllers
             _serviceService.TInsert(service);
             return Ok();
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteService(string id)
         {
-            _serviceService.TDelete(await _serviceService.TGetByID(Guid.Parse(id)));
+            _serviceService.TDelete(await _serviceService.TGetByID(int.Parse(id)));
             return Ok();
         }
         [HttpPut]
@@ -39,7 +39,7 @@ namespace HotelProject.WebApi.Controllers
             return Ok();
         }
         [HttpGet("{id}")]
-        public IActionResult GetService(Guid id)
+        public IActionResult GetService(int id)
         {
             return Ok(_serviceService.TGetByID(id));
         }

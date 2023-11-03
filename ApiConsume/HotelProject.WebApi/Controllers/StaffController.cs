@@ -18,7 +18,8 @@ namespace HotelProject.WebApi.Controllers
         [HttpGet]
         public IActionResult StaffList()
         {
-            return Ok(_staffService.TGetList());
+            var values = _staffService.TGetList();
+            return Ok(values);
         }
         [HttpPost]
         public IActionResult AddStaff(Staff staff)
@@ -26,10 +27,10 @@ namespace HotelProject.WebApi.Controllers
             _staffService.TInsert(staff);
             return Ok();
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteStaff(string id)
         {
-            _staffService.TDelete(await _staffService.TGetByID(Guid.Parse(id)));
+            _staffService.TDelete(await _staffService.TGetByID(int.Parse(id)));
             return Ok();
         }
         [HttpPut]
@@ -39,7 +40,7 @@ namespace HotelProject.WebApi.Controllers
             return Ok();
         }
         [HttpGet("{id}")]
-        public IActionResult GetStaff(Guid id)
+        public IActionResult GetStaff(int id)
         {
             return Ok(_staffService.TGetByID(id));
         }

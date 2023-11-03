@@ -17,12 +17,12 @@ namespace HotelProject.BusinessLayer.Concrete
             _staffDal.Delete(entity);
         }
 
-        public Task<Staff> TGetByID(Guid id)
+        public Task<Staff> TGetByID(int id)
         {
             return _staffDal.GetByID(id);
         }
 
-        public Task<List<Staff>> TGetList()
+        public List<Staff> TGetList()
         {
             return _staffDal.GetList();
         }

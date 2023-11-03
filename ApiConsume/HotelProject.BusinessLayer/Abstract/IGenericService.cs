@@ -5,7 +5,7 @@
         void TInsert(T entity);
         void TDelete(T entity);
         void TUpdate(T entity);
-        Task<List<T>> TGetList();
-        Task<T> TGetByID(Guid id);
+        List<T> TGetList();
+        Task<T> TGetByID(int id);
     }
 }

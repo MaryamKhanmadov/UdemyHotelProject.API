@@ -26,10 +26,10 @@ namespace HotelProject.WebApi.Controllers
             _testimonialService.TInsert(testimonial);
             return Ok();
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteTestimonial(string id)
         {
-            _testimonialService.TDelete(await _testimonialService.TGetByID(Guid.Parse(id)));
+            _testimonialService.TDelete(await _testimonialService.TGetByID(int.Parse(id)));
             return Ok();
         }
         [HttpPut]
@@ -39,7 +39,7 @@ namespace HotelProject.WebApi.Controllers
             return Ok();
         }
         [HttpGet("{id}")]
-        public IActionResult GetTestimonial(Guid id)
+        public IActionResult GetTestimonial(int id)
         {
             return Ok(_testimonialService.TGetByID(id));
         }

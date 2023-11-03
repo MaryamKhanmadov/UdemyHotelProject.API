@@ -18,12 +18,12 @@ namespace HotelProject.BusinessLayer.Concrete
             _roomDal.Delete(entity, true);
         }
 
-        public async Task<Room> TGetByID(Guid id)
+        public async Task<Room> TGetByID(int id)
         {
             return await _roomDal.GetByID(id, true);
         }
 
-        public Task<List<Room>> TGetList()
+        public List<Room> TGetList()
         {
             return _roomDal.GetList(true);
         }
