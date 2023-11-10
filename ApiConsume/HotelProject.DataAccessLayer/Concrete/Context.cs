@@ -1,10 +1,11 @@
 ﻿using HotelProject.EntityLayer;
 using HotelProject.EntityLayer.Concrete;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace HotelProject.DataAccessLayer.Concrete
 {
-    public class Context : DbContext
+    public class Context : IdentityDbContext<AppUser, AppRole, int>
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -26,7 +27,7 @@ namespace HotelProject.DataAccessLayer.Concrete
             {
                 _ = data.State switch
                 {
-                    EntityState.Added => data.Entity.CreatedDate = DateTime.UtcNow,
+                    EntityState.Added => data.Entity.CreatedDate = DateTime.Now,
                     EntityState.Modified => data.Entity.UpdatedDate = DateTime.UtcNow,
                     _ => DateTime.UtcNow
                 };
