@@ -29,7 +29,7 @@ namespace HotelProject.DataAccessLayer.Concrete
                 _ = data.State switch
                 {
                     EntityState.Added => data.Entity.CreatedDate = DateTime.Now,
-                    EntityState.Modified => data.Entity.UpdatedDate = DateTime.UtcNow,
+                    EntityState.Modified => data.Entity.UpdatedDate = DateTime.Now,
                     _ => DateTime.UtcNow
                 };
             }
