@@ -1,0 +1,47 @@
+﻿@model List<ResultBookingDto>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+    int countId = 1;
+}
+
+<div class="card-title">
+    <h4>Reservation</h4>
+</div>
+<div class="table-responsive">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>CheckIn</th>
+                <th>CheckOut</th>
+                <th>Status</th>
+                <th>Accept</th>
+                <th>Reject</th>
+                <th>Wait</th>
+                <th>Update</th>
+                <th>Detail</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th>@(countId++)</th>
+                    <td>@item.Name</td>
+                    <td>@item.CheckIn.ToString("d")</td>
+                    <td>@item.CheckOut.ToString("d")</td>
+                    <td>
+                        <span class="badge badge-primary px-2">@item.Status</span>
+                    </td>
+                    <td><a href="#" class="btn btn-outline-success">Accept</a></td>
+                    <td><a href="#" class="btn btn-outline-danger">Reject</a></td>
+                    <td><a href="#" class="btn btn-outline-warning">Wait</a></td>
+                    <td><a href="#" class="btn btn-outline-info">Update</a></td>
+                    <td><a href="#" class="btn btn-outline-dark">Detail</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
