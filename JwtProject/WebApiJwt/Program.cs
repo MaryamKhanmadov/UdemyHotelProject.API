@@ -1,4 +1,8 @@
 
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+
 namespace WebApiJwt
 {
     public class Program
@@ -13,6 +17,17 @@ namespace WebApiJwt
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(opt=>{
+                opt.RequireHttpsMetadata = false;
+                opt.TokenValidationParameters = new TokenValidationParameters()
+                {
+                    ValidIssuer = "http://localhost",
+                    ValidAudience = "http://localhost",
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("aspnetcoreapiapi")),
+                    ValidateIssuerSigningKey = true
+                };
+            });
 
             var app = builder.Build();
 
