@@ -1,4 +1,3 @@
-
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
@@ -25,7 +24,9 @@ namespace WebApiJwt
                     ValidIssuer = "http://localhost",
                     ValidAudience = "http://localhost",
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("aspnetcoreapiapi")),
-                    ValidateIssuerSigningKey = true
+                    ValidateIssuerSigningKey = true,
+                    ValidateLifetime = true,
+                    ClockSkew = TimeSpan.Zero
                 };
             });
 
@@ -37,7 +38,7 @@ namespace WebApiJwt
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-
+            app.UseAuthentication();
             app.UseAuthorization();
 
 
