@@ -19,6 +19,7 @@ namespace HotelProject.DataAccessLayer.Concrete
         public DbSet<About> Abouts { get; set; }
         public DbSet<Booking> Bookings { get; set; }
         public DbSet<Guest> Guests { get; set; }
+        public DbSet<Contact> Contacts { get; set; }
         public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
             //ChangeTracker : Entityler üzerinden yapılan değişiklerin ya da yeni eklenen verinin yakalanmasını sağlayan propertydir. Update operasyonlarında Track edilen verileri yakalayıp elde etmemizi sağlar.
