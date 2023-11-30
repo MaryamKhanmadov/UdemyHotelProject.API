@@ -18,6 +18,26 @@
         </div>
     </div>
     <br />
+    <div class="form-row">
+        <div class="form-group col-md-4">
+            <label>Room Count</label>
+            <input type="text" asp-for="RoomCount" class="form-control" />
+        </div>
+        <div class="form-group col-md-4">
+            <label>Staff Count</label>
+            <input type="text" asp-for="StaffCount" class="form-control" />
+        </div>
+        <div class="form-group col-md-4">
+            <label>Client Count</label>
+            <input type="text" asp-for="ClientCount" class="form-control" />
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-12">
+            <label>Content</label>
+            <input type="text" asp-for="Content" class="form-control" />
+        </div>
+    </div>
     <br />
     <button asp-action="UpdateAbout" class="btn btn-outline-success">Update</button>
     <button asp-action="Index" class="btn btn-outline-warning">Back to List</button>
