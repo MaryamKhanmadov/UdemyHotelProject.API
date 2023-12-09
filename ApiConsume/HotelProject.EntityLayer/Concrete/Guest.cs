@@ -6,5 +6,7 @@
         public required string Name { get; set; }
         public required string Surname { get; set; }
         public required string City { get; set; }
+        public DateTime CreatedDate { get; set; }
+        public DateTime UpdatedDate { get; set; }
     }
 }

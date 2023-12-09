@@ -1,7 +1,6 @@
 ﻿using HotelProject.DataAccessLayer.Abstract;
 using HotelProject.DataAccessLayer.Concrete;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace HotelProject.DataAccessLayer.Repositories
 {

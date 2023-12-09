@@ -277,6 +277,9 @@ namespace HotelProject.DataAccessLayer.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -284,6 +287,9 @@ namespace HotelProject.DataAccessLayer.Migrations
                     b.Property<string>("Surname")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("GuestId");
 

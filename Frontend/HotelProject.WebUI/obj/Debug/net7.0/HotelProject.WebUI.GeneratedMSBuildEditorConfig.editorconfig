@@ -56,6 +56,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5MYXlvdXRcX0FkbWluTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Asus/Desktop/Udemy_Hotel_Project/UdemyHotelProject/Frontend/HotelProject.WebUI/Views/AdminRoom/AddRoom.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Sb29tXEFkZFJvb20uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asus/Desktop/Udemy_Hotel_Project/UdemyHotelProject/Frontend/HotelProject.WebUI/Views/AdminRoom/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Sb29tXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asus/Desktop/Udemy_Hotel_Project/UdemyHotelProject/Frontend/HotelProject.WebUI/Views/AdminRoom/UpdateRoom.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Sb29tXFVwZGF0ZVJvb20uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Asus/Desktop/Udemy_Hotel_Project/UdemyHotelProject/Frontend/HotelProject.WebUI/Views/BookingAdmin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ0FkbWluXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -82,6 +94,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Asus/Desktop/Udemy_Hotel_Project/UdemyHotelProject/Frontend/HotelProject.WebUI/Views/Default/_SubscribePartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxfU3Vic2NyaWJlUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asus/Desktop/Udemy_Hotel_Project/UdemyHotelProject/Frontend/HotelProject.WebUI/Views/Guest/AddGuest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Vlc3RcQWRkR3Vlc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asus/Desktop/Udemy_Hotel_Project/UdemyHotelProject/Frontend/HotelProject.WebUI/Views/Guest/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Vlc3RcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asus/Desktop/Udemy_Hotel_Project/UdemyHotelProject/Frontend/HotelProject.WebUI/Views/Guest/UpdateGuest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Vlc3RcVXBkYXRlR3Vlc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Asus/Desktop/Udemy_Hotel_Project/UdemyHotelProject/Frontend/HotelProject.WebUI/Views/Home/Index.cshtml]

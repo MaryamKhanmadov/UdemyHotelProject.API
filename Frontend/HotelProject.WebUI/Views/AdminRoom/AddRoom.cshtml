@@ -1,0 +1,58 @@
+﻿@model CreateRoomDto
+@{
+    ViewData["Title"] = "AddRoom";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+<form method="post">
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label>Room Number</label>
+            <input type="text" class="form-control" asp-for="RoomNumber" placeholder="Number">
+        </div>
+        <div class="form-group col-md-6">
+            <label>Room Title</label>
+            <input type="text" asp-for="Title" class="form-control" placeholder="Title">
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label>Price</label>
+            <input type="text" class="form-control" asp-for="Price" placeholder="Price">
+        </div>
+        <div class="form-group col-md-6">
+            <label>Bed Count</label>
+            <input type="text" class="form-control" asp-for="BedCount" placeholder="Bed Count">
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label>Bath Count</label>
+            <input type="text" class="form-control" asp-for="BathCount" placeholder="Bath Count">
+        </div>
+        <div class="form-group col-md-6">
+            <label>Description</label>
+            <input type="text" class="form-control" asp-for="Description" placeholder="Description">
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label>Room Cover Image</label>
+            <input type="text" class="form-control" asp-for="RoomCoverImage" placeholder="Room Cover Image">
+        </div>
+        <div class="form-group col-md-6">
+            <label>Room Cover Image</label>
+            <select type="text" class="form-control" asp-for="RoomCoverImage" placeholder="Room Cover Image">
+                <option value=1>Yes</option>
+                <option value=0>No</option>
+            </select>
+
+        </div>
+    </div>
+
+    <button class="btn btn-primary">Add New Room</button>
+    <button asp-action="Index" class="btn btn-outline-warning">Back to List</button>
+</form>
